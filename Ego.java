@@ -12,7 +12,9 @@ class Ego implements Fighter {
 	}
 	
 	public void respondToAttack(int power) {
-		if (power >= health / 2) {
+		if (health < power) {
+			System.out.println("Your fighting days are over...");
+		} else if (power >= health / 2) {
 			System.out.println("You scream!  You nearly died!");
 		} else {
 		    System.out.println("You grunt, but take the damage.");

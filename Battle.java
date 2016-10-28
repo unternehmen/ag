@@ -30,6 +30,6 @@ class Battle {
 	}
 	
 	public static void main(String[] args) {
-		new Battle(new Ego(), new Zombie()).run();
+		new Battle(new Ego(), new Jyesula()).run();
 	}
 }
