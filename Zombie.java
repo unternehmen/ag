@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 class Zombie implements Fighter {
 	private int health;
 	private int power;
