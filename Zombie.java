@@ -22,7 +22,7 @@ class Zombie implements Fighter {
 	}
 	
 	public void performTurn(Fighter opponent) {
-		System.out.println("It grabs at your flesh.");
+		System.out.println("The zombie grabs at your flesh.");
 		opponent.takeDamage(power);
 	}
 	
